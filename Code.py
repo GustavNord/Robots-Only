@@ -237,8 +237,10 @@ class Game:
     def start_game(self):
         print("Welcome to Quest for the Lost Relic!")
         self.create_character()
+        print("The adventure begins...")
         while self.player.health > 0:
-            print(f"You are in the {self.current_area}.")
+            print(f"\nYou are in the {self.current_area}.")
             self.explore_area()
             if self.current_area == "Bandit's Lair":
+                print("You have completed your quest and finished the game!")
                 break  # End the game after the final area
