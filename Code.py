@@ -47,22 +47,42 @@ class Game:
 
     def create_character(self):
         name = input("Enter your character's name: ")
-        character_class = input("Choose a class (Warrior, Mage, Rogue): ")
+        print("Choose a class:")
+        print("1. Warrior")
+        print("2. Mage")
+        print("3. Rogue")
+        class_choice = input("Enter the number of your choice: ")
+        
+        if class_choice == "1":
+            character_class = "Warrior"
+        elif class_choice == "2":
+            character_class = "Mage"
+        elif class_choice == "3":
+            character_class = "Rogue"
+        else:
+            print("Invalid choice, defaulting to Warrior.")
+            character_class = "Warrior"
+
         self.player = Character(name, character_class)
         print(f"{self.player.name} the {self.player.character_class} has been created!")
 
     def combat(self, enemy):
         print(f"A wild {enemy.name} appears!")
         while self.player.health > 0 and enemy.health > 0:
-            action = input("Choose an action: (Attack, Defend, Use Item): ").lower()
-            if action == "attack":
+            print("Choose an action:")
+            print("1. Attack")
+            print("2. Defend")
+            print("3. Use Item")
+            action = input("Enter the number of your choice: ")
+
+            if action == "1":
                 damage = self.player.attack()
                 enemy.health -= damage
                 print(f"You dealt {damage} damage to {enemy.name}.")
-            elif action == "defend":
+            elif action == "2":
                 defense = self.player.defend()
                 print(f"You defended with {defense} agility.")
-            elif action == "use item":
+            elif action == "3":
                 item = input("Which item do you want to use? ")
                 self.player.use_item(item)
             else:
@@ -107,5 +127,3 @@ class Game:
 if __name__ == "__main__":
     game = Game()
     game.start_game()
-
-
