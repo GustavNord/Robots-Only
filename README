@@ -1,1 +1,69 @@
+# Quest for the Lost Relic
 
+## Game Concept
+"Quest for the Lost Relic" is a text-based roleplaying game where players embark on an adventure to retrieve a powerful relic stolen by a dark sorcerer. Players can choose from three distinct character classes, each with unique abilities and attributes, and navigate through various scenarios filled with challenges, enemies, and treasures.
+
+## Features
+- **Character Creation**: Choose from three classes: Warrior, Mage, or Rogue, each with unique stats and special abilities.
+- **World and Story Progression**: Explore multiple areas, including the Haunted Forest, Enchanted Castle, and Bandit's Lair, each with unique encounters and items.
+- **Turn-Based Combat System**: Engage in strategic combat with enemies, utilizing attack, defend, and special moves.
+- **Inventory Management**: Collect and manage items such as potions and magical artifacts, with the ability to view, use, or discard them.
+- **Branching Choices and Endings**: Make decisions that affect the storyline and lead to multiple game endings based on player choices.
+- **Error Handling**: The game gracefully handles unexpected inputs and scenarios, ensuring a smooth gameplay experience.
+
+## How to Run the Game
+1. Ensure you have Python installed on your machine.
+2. Download the game files from the repository.
+3. Open a terminal or command prompt.
+4. Navigate to the directory where the game files are located.
+5. Run the game using the command: python quest_for_the_lost_relic.py
+
+
+## Dependencies
+- Python 3.x
+
+## Basic Gameplay Commands
+- **Create Character**: Follow the prompts to enter your character's name and choose a class.
+- **Explore**: Move through different areas by following the prompts.
+- **Combat Actions**: During combat, choose from the following actions:
+- `Attack`: Deal damage to the enemy.
+- `Defend`: Reduce incoming damage.
+- `Use Item`: Use an item from your inventory.
+- `Special Move`: Use your character's unique ability.
+
+## Notes
+- The game includes random elements in combat, making each encounter unique.
+- Pay attention to your health and inventory, as they are crucial for survival.
+- Enjoy the adventure and make choices that will shape your journey!
+
+## Contact
+For any issues or feedback, please reach out to the game developer.
+
+
+# Quest for the Lost Relic
+
+## Game Concept
+"Quest for the Lost Relic" is a text-based roleplaying game where players embark on an adventure to retrieve a powerful relic stolen by a dark sorcerer. Players can choose from three distinct character classes, each with unique abilities and attributes, and navigate through various scenarios filled with challenges, enemies, and treasures.
+
+## Features
+- **Character Creation**: Choose from three classes: Warrior, Mage, or Rogue, each with unique stats and special abilities.
+- **World and Story Progression**: Explore multiple areas, including the Haunted Forest, Enchanted Castle, and Bandit's Lair, each with unique encounters and items.
+- **Turn-Based Combat System**: Engage in strategic combat with enemies, utilizing attack, defend, and special moves.
+- **Inventory Management**: Collect and manage items such as potions and magical artifacts, with the ability to view, use, or discard them.
+- **Branching Choices and Endings**: Make decisions that affect the storyline and lead to multiple game endings based on player choices.
+- **Error Handling**: The game gracefully handles unexpected inputs and scenarios, ensuring a smooth gameplay experience.
+
+## Installation Instructions
+1. **Install Python**:
+   - Download and install Python from the [official website](https://www.python.org/downloads/).
+   - Follow the installation instructions for your operating system.
+
+2. **Download the Game**:
+   - Clone or download the game files from the repository.
+
+## How to Run the Game
+1. Open a terminal or command prompt.
+2. Navigate to the directory where the game files are located.
+3. Run the game using the command:
+   ```bash
+   python quest_for_the_lost_relic.py
